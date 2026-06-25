@@ -102,3 +102,74 @@ body {
   text-align: center;
   line-height: 1.4;
 }
+
+
+ .about-section{
+  width: 1200px;
+  margin:80px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.about-conternt{
+  width:45%
+}
+
+.about-content span{
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color:#2563eb
+}
+
+.subtitle{
+  color: #2E7AF4;
+  font-size:20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+
+h2{
+  font-size:36px;
+ font-weight: 700;
+ color:#111827;
+ margin-bottom: 48px;
+ line-height: 1.2;
+}
+
+p{
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  background:#2E7AF4;
+  color:white;
+  padding: 14px 25px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.image-box img{
+  width:420px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.image-box: ::before{
+  content:"";
+  width:180px;
+  height:180px;
+  background:#eef5ff;
+  possition:absolute;
+  right:-40xp;
+  bottom:-30xp;
+}
