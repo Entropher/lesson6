@@ -146,3 +146,30 @@ p{
   line-height: 1.8;
   margin-bottom: 20px;
 }
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  background:#2E7AF4;
+  color:white;
+  padding: 14px 25px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.image-box img{
+  width:420px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.image-box: ::before{
+  content:"";
+  width:180px;
+  height:180px;
+  background:#eef5ff;
+  possition:absolute;
+  right:-40xp;
+  bottom:-30xp;
+}
