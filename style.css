@@ -3,3 +3,102 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: #f0f2f5;
+}
+
+/* Team Section */
+/* Team Section wrapper */
+.team-section {
+  padding: 64px 80px 80px;
+  background: #f0f2f5;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Team Header */
+.team-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.team-header::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #2563eb;
+  flex-shrink: 0;
+}
+
+.team-header span {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #2563eb;
+}
+
+/* Heading */
+.team-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 48px;
+  line-height: 1.2;
+}
+
+/* Cards grid */
+.team-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual card */
+.team-card {
+  background: #ffffff;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 28px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  flex: 1 1 180px;
+  max-width: 220px;
+  min-width: 160px;
+  transition:
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+/* Circular photo */
+.team-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #dde3ed;
+  flex-shrink: 0;
+}
+
+.team-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Name */
+.team-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f2937;
+  text-align: center;
+  line-height: 1.4;
+}
