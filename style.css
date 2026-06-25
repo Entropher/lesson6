@@ -102,3 +102,24 @@ body {
   text-align: center;
   line-height: 1.4;
 }
+
+
+about-section{
+  width: 1200px;
+  margin:80px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+about-conternt{
+  width:45%
+}
+
+about-content span{
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color:#2563eb
+}
