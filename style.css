@@ -9,7 +9,8 @@ body {
   background: #f0f2f5;
 }
 
-/* Section wrapper */
+/* Team Section */
+/* Team Section wrapper */
 .team-section {
   padding: 64px 80px 80px;
   background: #f0f2f5;
@@ -17,15 +18,15 @@ body {
   margin: 0 auto;
 }
 
-/* Eyebrow label */
-.team-eyebrow {
+/* Team Header */
+.team-header {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 12px;
 }
 
-.team-eyebrow::before {
+.team-header::before {
   content: "";
   display: block;
   width: 24px;
@@ -34,7 +35,7 @@ body {
   flex-shrink: 0;
 }
 
-.team-eyebrow span {
+.team-header span {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.12em;
