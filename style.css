@@ -77,7 +77,7 @@ header {
 
 .hero1-text {
   position: absolute;
-  top: 15%;
+  top: 8%;
   transform: translate(-50%);
   left: 27%;
   max-width: 408px;
@@ -129,74 +129,74 @@ header {
   font-weight: 600;
 }
 
- .about-section{
+.about-section {
   width: 1200px;
-  margin:80px auto;
+  margin: 80px auto;
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
 }
 
-.about-conternt{
-  width:45%
+.about-conternt {
+  width: 45%;
 }
 
-.about-content span{
+.about-content span {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color:#2563eb
+  color: #2563eb;
 }
 
-.subtitle{
-  color: #2E7AF4;
-  font-size:20px;
+.subtitle {
+  color: #2e7af4;
+  font-size: 20px;
   font-weight: 600;
   line-height: 25px;
   letter-spacing: 0%;
 }
 
-h2{
-  font-size:36px;
- font-weight: 700;
- color:#111827;
- margin-bottom: 48px;
- line-height: 1.2;
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 48px;
+  line-height: 1.2;
 }
 
-p{
+p {
   color: #777;
   font-size: 15px;
   line-height: 1.8;
   margin-bottom: 20px;
 }
 
-.btn{
+.btn {
   display: inline-block;
   text-decoration: none;
-  background:#2E7AF4;
-  color:white;
+  background: #2e7af4;
+  color: white;
   padding: 14px 25px;
   border-radius: 5px;
   margin-top: 15px;
 }
 
-.image-box img{
-  width:420px;
+.image-box img {
+  width: 420px;
   height: 500px;
   object-fit: cover;
   border-radius: 12px;
 }
 
-.image-box: ::before{
-  content:"";
-  width:180px;
-  height:180px;
-  background:#eef5ff;
-  possition:absolute;
-  right:-40xp;
-  bottom:-30xp;
+.image-box::before {
+  content: "";
+  width: 180px;
+  height: 180px;
+  background: #eef5ff;
+  possition: absolute;
+  right: -40xp;
+  bottom: -30xp;
 }
 
 /* Team Section */
@@ -311,7 +311,7 @@ p{
   transform: translateY(-50%);
   z-index: -1;
   border-radius: 0 30px 30px 0;
-  
+
   width: 30%;
   height: 100%;
   object-fit: cover;
@@ -346,9 +346,9 @@ article {
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #2E7AF4;
+  color: #2e7af4;
   margin-bottom: 8px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .article-title {
@@ -358,11 +358,11 @@ article {
   color: #222;
   font-size: 58px;
   font-weight: bold;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 article p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.6;
   font-size: 18px;
   color: #333;
@@ -382,7 +382,7 @@ article p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 130%;             
+  width: 130%;
   height: 140%;
   z-index: -1;
 }
